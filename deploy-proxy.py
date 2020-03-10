@@ -35,7 +35,7 @@ class ProxyPi:
 
     # Writes a config file to /etc/squid/piproxy.conf and includes it in the main default file (if it exists)
     # Otherwise it creates the necessary files
-    def make_proxy_conf(self):
+    def conf_proxy(self):
         # Create the config file if they exist
         try:
             os.system("sudo touch /etc/squid/conf.d/piproxy.conf")
