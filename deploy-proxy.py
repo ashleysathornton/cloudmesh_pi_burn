@@ -40,7 +40,7 @@ class ProxyPi:
         try:
             os.system("sudo touch /etc/squid/conf.d/piproxy.conf")
 
-        except:
+        except BaseException:
             raise Exception(
                 "There is something wrong with your squid installation")
 
