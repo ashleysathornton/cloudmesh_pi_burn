@@ -9,7 +9,7 @@ https://www.techrepublic.com/article/how-to-install-and-configure-squid-proxy-se
 
 This class will automate the process linked through class initialization and management methods.
 
-Use 'curl -x http://<squid-proxy-server-IP>:3128  -L http://google.com' to verify it is working
+Use 'curl -x http://<squid-proxy-server-IP>:3128  -I http://google.com' to verify it is working
 
 Ensure you are in root user (sudo su) mode.
 """
